@@ -8,7 +8,7 @@ class TestGeometry(unittest.TestCase):
         self.assertEqual(triangle_area(10, 5), 25.0)
 
     def test_square(self):
-        self.assertEqual(square_area(4), 999)
+        self.assertEqual(square_area(4), 16)
 
 
 if __name__ == "__main__":
